@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Redirect } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 import { Auth, Home } from './pages';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="wrapper">
-        <Route exact path={['/', '/login']} component={Auth} />
+        <Route exact path={['/', '/login', '/register']} component={Auth} />
         <Route exact path="/im" component={Home} />
       </div>
     </div>

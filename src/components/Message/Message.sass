@@ -1,7 +1,9 @@
-@import styles/_variables
+@import ../../styles/_variables
 
 
 .message
+    margin-top: 10px
+    clear: both
     display: flex
     max-width: 440px
     $self: &
@@ -9,7 +11,7 @@
     &__avatar
         display: flex
         flex-direction: column-reverse
-        margin-bottom: 24px
+        margin-bottom: 21px
 
         img
             border-radius: 50px
@@ -17,6 +19,28 @@
             height: 33px
             margin-right: 13px
             margin-top: 13px
+
+    &__readed
+        position: relative
+        right: 448px
+        bottom: 0
+        display: flex
+        flex-direction: column-reverse
+        margin-bottom: 28px
+
+    &__attachments
+        display: flex
+        margin-bottom: 5px
+
+        &-item
+            margin-right: 5px
+            cursor: pointer
+            
+            img
+                width: 45px
+                height: 45px
+                border-radius: 8px
+
 
     &__bubble
         background-color: $blue
@@ -58,3 +82,85 @@
 
             #{$self}__text
                 color: $black
+
+    &__typing
+        span
+            height: 8px
+            width: 8px
+            border-radius: 50%
+            background: $message-typing-circle
+            display: inline-block
+            margin-right: 8px
+            animation-name: typingAnimation
+            animation-duration: .5s
+            animation-timing-function: ease-in-out
+            animation-iteration-count: infinite
+            
+            &:nth-of-type(2)
+                animation-delay: .6s
+            
+            &:nth-of-type(3)
+                animation-delay: .7s
+
+    &--is-typing
+        #{$self}__bubble
+            background-color: $message-typing-bubble
+            box-shadow: 0px 5px 5px rgba(54, 116, 225, .04)
+            padding: 15px 20px
+    
+    &--image
+        #{$self}__attachments
+            &-item
+                img
+                    width: 150px
+                    height: 150px
+
+    &--is-audio
+        #{$self}__bubble
+            width: 260px
+            position: relative
+            overflow: hidden
+
+        #{$self}__audio
+            audio
+                display: none
+
+            &-progress
+                top: 0
+                left: 0
+                position: absolute
+                height: 100%
+                background-color: #418fff
+                transition: width .4s ease-out
+
+            &-info
+                position: relative
+                display: flex
+                align-items: center
+                justify-content: space-between
+
+            &-btn
+                button
+                    border: 0
+                    background-color: #0f3997
+                    width: 20px
+                    height: 20px
+                    border-radius: 30px
+
+                    img
+                        height: 11px
+                        margin: 0 -1px
+
+            &-duration
+                color: #ffffff
+                font-weight: 500
+                opacity: .5
+                font-size: 14px
+
+            &-wave
+
+@keyframes typingAnimation
+    from
+        opacity: 0
+    to
+        opacity: 1
