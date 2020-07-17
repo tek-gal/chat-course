@@ -10,8 +10,8 @@ import './DialogItem.sass';
 
 const getMessageTime = (time) => {
     return isToday(time)
-        ? format(time, 'HH:mm')
-        : format(time, 'dd.MM.yyyy');
+        ? format(new Date(time), 'HH:mm')
+        : format(new Date(time), 'dd.MM.yyyy');
 };
 
 

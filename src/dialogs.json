@@ -1,0 +1,39 @@
+[
+    {
+        "_id": "357be52f82b87b4b58449cfe591b4ae0",
+        "text": "Мы все свидетельствуем Вам глубочайшее наше почтение.",
+        "isReaded": true,
+        "createdAt": "Fri Jul 17 2020 23:28:10 GMT+0000 (UTC)",
+        "user": {
+            "_id": "357be52f82b87b4b58449cfe591b4ae0",
+            "avatar": "https://img.pngio.com/download-free-png-person-outline-icon-png-person-outline-icon-png-person-icon-png-512_512.png",
+            "fullname": "Федор Достоевкий",
+            "isOnline": true
+        },
+        "unreaded": 3
+    },
+    {
+        "_id": "bbbc01ec5ec409030d85f6e783383277",
+        "text": "Я инженер",
+        "isReaded": true,
+        "createdAt": "Fri Jul 17 2020 23:28:10 GMT+0000 (UTC)",
+        "user": {
+            "_id": "bbbc01ec5ec409030d85f6e783383277",
+            "fullname": "Борис Гребенщиков",
+            "isOnline": true
+        },
+        "unreaded": 0
+    },
+    {
+        "_id": "bbbc01ec5ec409030d85f6e783383277",
+        "text": "When I think of his dick",
+        "isReaded": true,
+        "createdAt": "Fri Jul 17 2020 23:28:10 GMT+0000 (UTC)",
+        "user": {
+            "_id": "bbbc01ec5ec409030d85f6e783383277",
+            "fullname": "Kovacs",
+            "isOnline": true
+        },
+        "unreaded": 5
+    }
+]

@@ -1,0 +1,16 @@
+.status
+    display: inline-block
+    color: #d7d7d7
+    position: relative
+
+    &--online
+        &::before
+            left: -11px
+            top: 5px
+            position: absolute
+            display: block
+            content: ''
+            width: 6px
+            height: 6px
+            border-radius: 30px
+            background-color: #00c980

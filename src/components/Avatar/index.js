@@ -26,7 +26,7 @@ const Avatar = ({ user }) => {
     }
 };
 
-Avatar.PropTypes = {
+Avatar.propTypes = {
     user: PropTypes.object,
 };
 
