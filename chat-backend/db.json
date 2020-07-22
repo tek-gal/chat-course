@@ -1,0 +1,208 @@
+{
+    "dialogs": [
+        {
+            "_id": "357be52f82b87b4b58449cfe591b4ae0",
+            "text": "Мы все свидетельствуем Вам глубочайшее наше почтение.",
+            "isReaded": true,
+            "createdAt": "Fri Jul 17 2020 23:28:10 GMT+0000 (UTC)",
+            "user": {
+                "_id": "357be52f82b87b4b58449cfe591b4ae0",
+                "avatar": "https://img.pngio.com/download-free-png-person-outline-icon-png-person-outline-icon-png-person-icon-png-512_512.png",
+                "fullname": "Федор Достоевкий",
+                "isOnline": true
+            },
+            "unreaded": 3
+        },
+        {
+            "_id": "bbcc01ec5ec409030d85f6e783383277",
+            "text": "Я инженер",
+            "isReaded": true,
+            "createdAt": "Fri Jul 17 2020 23:28:10 GMT+0000 (UTC)",
+            "user": {
+                "_id": "bbcc01ec5ec409030d85f6e783383277",
+                "fullname": "Борис Гребенщиков",
+                "isOnline": true
+            },
+            "unreaded": 0
+        },
+        {
+            "_id": "bbbc01ec5ec409030d85f6e783383277",
+            "text": "When I think of his dick",
+            "isReaded": true,
+            "createdAt": "Fri Jul 17 2020 23:28:10 GMT+0000 (UTC)",
+            "user": {
+                "_id": "bbbc01ec5ec409030d85f6e783383277",
+                "fullname": "Kovacs",
+                "isOnline": true
+            },
+            "unreaded": 5
+        }
+    ],
+    "messages": [
+        {
+          "_id": "5f1210d2731a4232e5558385",
+          "text": "Irure deserunt pariatur labore pariatur. Id exercitation irure eiusmod minim cillum aliqua ut. Minim aliquip commodo in officia voluptate laborum Lorem deserunt non.",
+          "createdAt": "Fri Jun 02 2017 14:29:18 GMT+0300 (Москва, стандартное время)",
+          "user": {
+            "_id": "5f1210d2038ed02f0593b068",
+            "fullname": "Mckenzie Cunningham",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d2c2042a23a86e7ce2",
+          "text": "Minim proident do nostrud minim fugiat. Cupidatat eu dolor exercitation eiusmod adipisicing labore ullamco id aute aliqua pariatur. Voluptate ad in amet anim.",
+          "createdAt": "Sat Jul 20 2019 09:25:52 GMT+0300 (Москва, стандартное время)",
+          "user": {
+            "_id": "5f1210d2650b90295b77a6f0",
+            "fullname": "Walls Chen",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d28dc7db276385727f",
+          "text": "Consequat est duis deserunt est cillum duis. Occaecat anim incididunt sint ullamco dolor reprehenderit irure. Laboris sint est minim et sint est minim esse tempor est amet.",
+          "createdAt": "Fri Mar 25 1988 19:38:56 GMT+0300 (Москва, стандартное время)",
+          "user": {
+            "_id": "5f1210d25ba6c76ac1e110ef",
+            "fullname": "Maribel Dean",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d2b07207328636ae9e",
+          "text": "Et laborum reprehenderit tempor officia nulla dolore commodo nostrud laborum eu. Exercitation esse aliqua fugiat sint nulla officia dolore aliqua ut ullamco voluptate adipisicing. Non cillum voluptate aliqua laborum adipisicing in.",
+          "createdAt": "Sun Jul 07 2002 21:45:25 GMT+0400 (Москва, летнее время)",
+          "user": {
+            "_id": "5f1210d2ffee7170103d5d6d",
+            "fullname": "Reyna Hart",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d227f46ce0bfa9e174",
+          "text": "Tempor magna consequat non eiusmod laboris commodo fugiat ipsum eu. Proident excepteur qui nostrud adipisicing aliquip eu. Sit mollit eu ea id culpa ad enim sunt magna exercitation occaecat exercitation amet ullamco.",
+          "createdAt": "Fri Feb 07 2020 02:21:06 GMT+0300 (Москва, стандартное время)",
+          "user": {
+            "_id": "5f1210d2531e3ac36f581a40",
+            "fullname": "Josie Schultz",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d2b52d84426b2b0b79",
+          "text": "Eu laborum ad reprehenderit laboris duis est. Velit quis ea culpa minim est sunt voluptate eiusmod dolore id consectetur fugiat consectetur est. Elit minim qui consectetur commodo cillum enim eu ex qui anim pariatur anim.",
+          "createdAt": "Tue Nov 28 2017 09:59:13 GMT+0300 (Москва, стандартное время)",
+          "user": {
+            "_id": "5f1210d22e431cad95e74d71",
+            "fullname": "Roberta Delaney",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d2ede52c65d848e575",
+          "text": "Enim voluptate qui commodo eu. Laborum nostrud ea exercitation ipsum. Mollit deserunt ullamco et elit.",
+          "createdAt": "Sun Oct 21 1973 07:00:50 GMT+0300 (Москва, стандартное время)",
+          "user": {
+            "_id": "5f1210d215a94b5d8a83a172",
+            "fullname": "Pamela Booth",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d22d715f60f2f193a6",
+          "text": "Excepteur Lorem consectetur adipisicing duis eiusmod occaecat nulla est quis velit tempor. Sit nisi incididunt nostrud officia exercitation dolor labore est quis. Quis esse cillum laborum magna pariatur est laboris dolor reprehenderit nulla officia.",
+          "createdAt": "Wed Oct 25 1995 13:00:52 GMT+0300 (Москва, стандартное время)",
+          "user": {
+            "_id": "5f1210d218ac6e2a2c7c9e8f",
+            "fullname": "Gibson Ford",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d22732ac9251cf1acb",
+          "text": "Excepteur et nulla laboris do amet magna ipsum sunt magna. Minim proident fugiat nostrud dolor enim in ullamco ipsum nisi aliqua ut. Deserunt quis cupidatat nulla laborum anim ex aliquip tempor deserunt amet quis.",
+          "createdAt": "Sun Nov 26 2006 19:36:20 GMT+0300 (Москва, стандартное время)",
+          "user": {
+            "_id": "5f1210d2bcf57faf871e43e1",
+            "fullname": "Ferrell Pope",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d202c89e686d705c84",
+          "text": "In deserunt mollit excepteur ad. Elit magna ipsum velit consectetur adipisicing ex laboris culpa enim amet tempor aliquip deserunt. Eiusmod do tempor aliquip minim cupidatat do eu aute duis id duis nulla consectetur aliqua.",
+          "createdAt": "Mon Jan 24 2011 19:05:14 GMT+0300 (Москва, стандартное время)",
+          "user": {
+            "_id": "5f1210d226788e34c21795fb",
+            "fullname": "Natalie Salas",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d2b8f01e4b6c3bfa04",
+          "text": "Id duis eiusmod consectetur qui labore eiusmod. Exercitation ad velit officia labore ipsum sit ipsum. Dolor occaecat velit consectetur aliquip.",
+          "createdAt": "Mon Sep 09 1996 10:44:04 GMT+0400 (Москва, летнее время)",
+          "user": {
+            "_id": "5f1210d21245eee65f54c39d",
+            "fullname": "Leanne Lamb",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d227019cee95654695",
+          "text": "Laborum dolor nulla culpa qui Lorem ex dolor proident adipisicing cupidatat duis. In consequat sunt eu sint proident enim minim Lorem ea officia velit. Velit enim aute occaecat pariatur Lorem anim excepteur.",
+          "createdAt": "Wed Dec 08 1999 17:06:54 GMT+0300 (Москва, стандартное время)",
+          "user": {
+            "_id": "5f1210d2412b4c2608479fce",
+            "fullname": "Roslyn Ballard",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d251d4166ae7911755",
+          "text": "Fugiat pariatur incididunt velit voluptate eu esse dolore voluptate officia magna commodo excepteur laboris. Est deserunt ea nulla sint. Magna laborum laborum qui aliquip.",
+          "createdAt": "Sat May 14 1983 11:54:53 GMT+0400 (Москва, летнее время)",
+          "user": {
+            "_id": "5f1210d2033959bdc6e11a3e",
+            "fullname": "Franklin Dickson",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d28713f807f9d09c64",
+          "text": "Sit elit pariatur pariatur ea ipsum laborum exercitation do. Deserunt cupidatat officia labore qui minim consequat laboris minim amet ipsum. Mollit consectetur magna elit eiusmod adipisicing laborum do.",
+          "createdAt": "Thu Aug 20 2009 18:40:43 GMT+0400 (Москва, летнее время)",
+          "user": {
+            "_id": "5f1210d28d76a50a38506fb7",
+            "fullname": "Jeannie Browning",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        },
+        {
+          "_id": "5f1210d21395b3e2f45e81ad",
+          "text": "Voluptate laborum amet sint aliquip minim velit reprehenderit id. Nostrud sint ex consequat anim sint nostrud esse velit elit labore sint dolore veniam nostrud. In ex et aliquip nisi ullamco laboris incididunt aute.",
+          "createdAt": "Sun Sep 01 1974 00:42:23 GMT+0300 (Москва, стандартное время)",
+          "user": {
+            "_id": "5f1210d2a76119b0cd13f233",
+            "fullname": "Pope Lewis",
+            "avatar": null
+          },
+          "dialog": "bbbc01ec5ec409030d85f6e783383277"
+        }
+    ]
+}
